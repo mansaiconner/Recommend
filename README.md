@@ -1,8 +1,10 @@
 # Recommend
 Recommend movies based a prompt given by the user
 
-DATASET - IMDB movie dataset was downloaded.
+The Movie dataset was downloaded from IMDB. I have it in my repository as "IMD-Movie_Data.csv"
 
-PYTHON REQUIREMENTS - numpy and pandas were used
+Created a requirements folder for the libraries I used.
 
-Results - When give the prompt " love romantic comedies with a female lead" it prints out "Twilight, The Bad Batch, How to Be Single, The Longest Ride, Black Swan" as the recommendations
+Used Jupyter Notebook to write and test my code.
+
+The code reads the data, takes input from the user, cleans the input and the movie plots, then computes which movies are most similar to the users input.
